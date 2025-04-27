@@ -18,7 +18,7 @@ This notebook focuses on analyzing marathon runner performance data from multipl
 ### 2. Key Sections/Steps
 
 - Creating API’s to pull data from baa.org and athlinks.com for runner data
-- goandrace.com and **** extracted GPX file for elevation data specific to each marathon
+- goandrace.com and plotarace.com extracted GPX file for elevation data specific to each marathon
 -   **Data Loading and Initial Exploration:** Loads marathon results data from CSV files for multiple years (2022, 2023, 2024) and performs initial data inspection (shape, data types, missing values).
 -   **Data Cleaning and Imputation:** Cleans gender data, handles missing values in pace-related columns using linear interpolation and extrapolation, and verifies the imputation.
 -   **Correlation Analysis:** Calculates and visualizes the correlation matrix to understand relationships between different performance metrics.
